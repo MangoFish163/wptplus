@@ -2,8 +2,8 @@
 /*
  * @wordpress-plugin
  * Plugin Name:         Autolode
- * Description:         自动共享功能测试
- * Version:             0.0.2
+ * Description:         在线更新功能测试
+ * Version:             0.0.3
  * Author:              Taotens
 */
 
@@ -28,13 +28,3 @@ require_once(plugin_dir_path(__FILE__).'/upload.php');
 * Load the automatic check updater
 */
 if (is_admin()) new UpdateChecker(plugin_basename(__FILE__));
-
-
-// add_action('init', 'add_plugin_update_filter');
-// function add_plugin_update_filter() {
-//     add_filter('pre_set_site_transient_update_plugins', 'check_for_plugin_update');
-// }
-// function check_for_plugin_update($transient) {
-//     // 你的检查更新逻辑
-//     return $transient;
-// }
