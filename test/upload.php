@@ -59,7 +59,7 @@ if (!class_exists('UpdateChecker')) {
             }
             // 向 GitHub API 发送请求，检查是否有新版本
             $github_api_url = 'https://api.github.com/repos/MangoFish163/wptplus/releases/138856852';
-            $personal_access_token = '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';
+            $personal_access_token = json_decode(file_get_contents(AUTOLODE_DIR.'../../text-config.json'))->token;
             $Agents = array(
                 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.71 Safari/537.1 LBBROWSER',
                 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; QQDownload 732; .NET4.0C; .NET4.0E)',

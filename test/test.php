@@ -3,7 +3,7 @@
  * @wordpress-plugin
  * Plugin Name:         Autolode
  * Description:         自动共享功能测试
- * Version:             0.0.1
+ * Version:             0.0.2
  * Author:              Taotens
 */
 
