@@ -19,6 +19,7 @@ try {
 } catch (\Throwable $th) {
 }
 
+
 /**
 * 加载自动检查更新程序
 */
