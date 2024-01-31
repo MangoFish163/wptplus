@@ -35,7 +35,6 @@ if (!class_exists('UpdateChecker')) {
             $this->plugin_entrance = $this->plugin_slug;
             // 向 GitHub API 发送请求，检查是否有新版本 地址/token换成自己的就行
             if ($this->cache_key == false || get_transient($this->cache_key) === false) {
-
                 $this->github_api_url = 'https://api.github.com/repos/MangoFish163/wptplus';
                 $personal_access_token = json_decode(file_get_contents(WP_CONTENT_DIR . '/text-config.json'))->token;
                 $Agents = array(
@@ -159,8 +158,8 @@ if (!class_exists('UpdateChecker')) {
                 );
             }
             $result->banners = array(
-                'low' => WP_PLUGIN_URL.'/'.UPDATECHECKER_DIR_NAME.'/MX0001.jpeg',
-                'high' => WP_PLUGIN_URL.'/'.UPDATECHECKER_DIR_NAME.'/MX0001.jpeg',
+                'low' => WP_PLUGIN_URL.'/'.UPDATECHECKER_DIR_NAME.'/MX001.jpeg',
+                'high' => WP_PLUGIN_URL.'/'.UPDATECHECKER_DIR_NAME.'/MX001.jpeg',
             );
 
             return $result;
