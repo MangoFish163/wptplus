@@ -1,6 +1,6 @@
 {
-    "description": "<p>玛卡巴卡 我的描述</p>",
-    "changelog": "<h4>Version 1.1:</h4><ul><li>Bug fixes</li><li>Improvements</li></ul>",
-    "installation": "<p>安装说明.</p>",
-    "screenshots": "<p>截图演示</p>"
+    "description": "<p>玛卡巴卡 我的描述 - 这是一个极简的在线更新检查器</p>",
+    "changelog": "<h4>Version 0.0.5:</h4><ul><li>正式版本</li><li>用于搭配0.0.4初版实现在线演示功能</li></ul>",
+    "installation": "<h4>安装说明:</h4><li>直接点击更新实现线上更新</li><li>git下载zip压缩包上传安装</li></ul>",
+    "screenshots": "<p>截图演示 - 这个人很懒,什么也没裁剪</p>"
 }
